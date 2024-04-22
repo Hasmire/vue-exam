@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import AddTask from './AddTask.vue'
+import AddTaskForm from './AddTaskForm.vue'
 import ViewTask from './ViewTask.vue'
 </script>
 
 <template>
-  <AddTask />
+  <div class="text-4xl font-bold">Task Manager - Lagman</div>
+  <AddTaskForm />
   <ViewTask />
 </template>
