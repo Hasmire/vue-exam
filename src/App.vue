@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import Toaster from '@/components/ui/toast/Toaster.vue'
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav class="text-3xl">
       <RouterLink to="/">TaskManager</RouterLink>
     </nav>
-
+    <Toaster />
     <RouterView />
   </div>
 </template>
